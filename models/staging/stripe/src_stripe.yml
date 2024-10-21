@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: stg_payments
+    database: raw
+    tables:
+      - name: payment # this will use the freshness defined above
+      
+
+
